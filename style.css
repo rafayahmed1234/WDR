@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    height: 1000px;
+}
+header {
+    background-image: url('background.jpg');
+    height: 700px;
+}
+.flex-container  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-top: 20px;
+  }
+      .logo  {
+        color: white;
+      }
+  
+      .logo, .navigation {
+          list-style: none;
+      }
+  
+      .logo a, .navigation a {
+          text-decoration: none;
+          font-size: 20px;
+          
+      }
+  
+  .navigation  {
+    display: flex;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 1em;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .navigation a:hover {
+      background: #00ace6;
+  }
+  button{
+    background-color: white;
+    color: black;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    float: right;
+    translate: -45px -45px -45px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(68, 66, 66);
+  }
+
+.banner img{
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    height: 550px;
+    margin-left: 80px;
+}
+ .para p {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section .para a {
+    text-decoration: none;
+    color: rgb(52, 52, 218);
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn1 {
+    margin-top: 70px;
+    margin-left: 280px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    width: 800px;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    margin-right: 300px;
+}
+
+.btn1:hover {
+    background-color: rgb(21, 61, 168);
+    cursor: pointer;
+}
+.Design img{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Dashboard img{
+    width: 550px;
+    position: absolute;
+    left: 850px;
+    top: 1000px;
+}
+.Apps img{
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.Websites img{
+    width: 550px;
+    position: absolute;
+    left: 850px;
+    top: 1550px;
+}
+.System img{
+    width: 300px;
+    padding: 50px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+    
+    
+
+.App img{
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    left: 550px;
+    top: 1910px;
+    height: 260px;
+    margin-top: 100px;
+    
+
+    
+}
+.website img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 1050px;
+    top: 1960px;
+    margin-top: 100px;
+}
+.btn2{
+    background-color: #27488f;
+   color: white;
+   position: absolute;
+   top: 2400px;
+   left: 250px;
+   height: 40px;
+   width: 130px;
+   font-size: 20px;
+
+
+}
+.btn2:hover{
+    background-color: rgb(13, 35, 133);
+}
+.btn3{
+    background-color: #27488f;
+    color: white;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    position: absolute;
+    top: 2400px;
+    left: 730px;
+ 
+ }
+ .btn3:hover{
+    background-color: rgb(13, 35, 133);
+}
+ .btn4{
+    background-color: #27488f;
+    color: white;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    position: absolute;
+    top: 2400px;
+    left: 1180px;
+ 
+ }
+ .btn4:hover{
+    background-color: rgb(13, 35, 133);
+}
+.btn5{
+    background-color: black;
+    color: white;
+    border-color:  white;
+    position: absolute;
+    top: 2600px;
+    margin-left: 680px;
+    width: 200px;
+    height: 50px;
+}
+.btn5:hover{
+    background-color: slategray;
+}
+.fb a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 2650px;
+    left: 600px;
+    font-size: 20px;
+}
+.Insta a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 2650px;
+    left: 780px;
+    font-size: 20px;
+}
+hr{
+    margin-top: 350px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot a{
+    color: white;
+    text-decoration: none;
+    margin-top: 70px;
+}
+.btn6{
+    background-color: rgb(126, 45, 192);
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.btn6:hover{
+    background-color: rgb(163, 97, 218);
+}
+
